@@ -1,0 +1,13 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    padding: 2rem;
+}
+.App h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+    text-shadow: .1rem .1rem .5rem blue;
+    text-align: center;
+    margin: 1rem auto;
+}

@@ -1,0 +1,33 @@
+.Output{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.task_list{
+    width: 75%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 1rem pink;
+    border-radius: 2rem;
+    padding: .5rem;
+}
+.task_list:hover{
+    box-shadow: 0 0 1rem violet;
+}
+.task_list span{
+    font-size: 1.5rem;
+    text-align: left;
+    width: 50%;
+}
+.task_list button{
+    font-size: 1.2rem;
+    padding: .3rem 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.task_list button:hover{
+    background-color: tomato;
+}
